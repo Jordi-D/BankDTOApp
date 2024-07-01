@@ -1,7 +1,8 @@
 package com.accountsDto.accounts.mapper;
 
-import com.accounts.accounts.dto.CustomerDto;
-import com.accounts.accounts.entity.Customer;
+
+import com.accountsDto.accounts.dto.CustomerDto;
+import com.accountsDto.accounts.entity.Customer;
 
 public class CustomerMapper {
     public static CustomerDto mapToCustomerDto(Customer customer, CustomerDto customerDto) {

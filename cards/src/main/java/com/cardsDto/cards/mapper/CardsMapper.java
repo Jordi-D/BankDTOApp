@@ -1,7 +1,7 @@
 package com.cardsDto.cards.mapper;
 
-import com.cards.cards.dto.CardsDto;
-import com.cards.cards.entity.Cards;
+import com.cardsDto.cards.dto.CardsDto;
+import com.cardsDto.cards.entity.Cards;
 
 
 public class CardsMapper {

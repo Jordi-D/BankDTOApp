@@ -1,6 +1,6 @@
 package com.cardsDto.cards.exception;
 
-import com.cards.cards.dto.ErrorResponseDto;
+import com.cardsDto.cards.dto.ErrorResponseDto;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;

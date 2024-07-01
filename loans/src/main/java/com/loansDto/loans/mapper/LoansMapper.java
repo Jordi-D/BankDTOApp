@@ -1,7 +1,7 @@
 package com.loansDto.loans.mapper;
 
-import com.loans.loans.dto.LoansDto;
-import com.loans.loans.entity.Loans;
+import com.loansDto.loans.dto.LoansDto;
+import com.loansDto.loans.entity.Loans;
 
 public class LoansMapper {
 

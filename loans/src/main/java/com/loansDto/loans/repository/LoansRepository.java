@@ -1,6 +1,6 @@
 package com.loansDto.loans.repository;
 
-import com.loans.loans.entity.Loans;
+import com.loansDto.loans.entity.Loans;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

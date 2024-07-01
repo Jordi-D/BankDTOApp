@@ -1,21 +1,20 @@
 package com.cardsDto.cards.service.impl;
 
 
-import com.cards.cards.constants.CardsConstants;
-import com.cards.cards.dto.CardsDto;
-import com.cards.cards.entity.Cards;
-import com.cards.cards.exception.CardAlreadyExistsException;
-import com.cards.cards.exception.ResourceNotFoundException;
-import com.cards.cards.mapper.CardsMapper;
-import com.cards.cards.repository.CardsRepository;
-import com.cards.cards.service.ICardsService;
+import com.cardsDto.cards.constants.CardsConstants;
+import com.cardsDto.cards.dto.CardsDto;
+import com.cardsDto.cards.entity.Cards;
+import com.cardsDto.cards.exception.CardAlreadyExistsException;
+import com.cardsDto.cards.exception.ResourceNotFoundException;
+import com.cardsDto.cards.mapper.CardsMapper;
+import com.cardsDto.cards.repository.CardsRepository;
+import com.cardsDto.cards.service.ICardsService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 import java.util.Random;
 
-import static com.cards.cards.mapper.CardsMapper.mapToCardsDto;
 
 @Service
 @AllArgsConstructor

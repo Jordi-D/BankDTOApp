@@ -1,10 +1,10 @@
 package com.loansDto.loans.controller;
 
-import com.loans.loans.constants.LoansConstants;
-import com.loans.loans.dto.ErrorResponseDto;
-import com.loans.loans.dto.LoansDto;
-import com.loans.loans.dto.ResponseDto;
-import com.loans.loans.service.ILoansService;
+import com.loansDto.loans.constants.LoansConstants;
+import com.loansDto.loans.dto.ErrorResponseDto;
+import com.loansDto.loans.dto.LoansDto;
+import com.loansDto.loans.dto.ResponseDto;
+import com.loansDto.loans.service.ILoansService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

@@ -1,10 +1,10 @@
 package com.cardsDto.cards.controller;
 
-import com.cards.cards.constants.CardsConstants;
-import com.cards.cards.dto.CardsDto;
-import com.cards.cards.dto.ErrorResponseDto;
-import com.cards.cards.dto.ResponseDto;
-import com.cards.cards.service.ICardsService;
+import com.cardsDto.cards.constants.CardsConstants;
+import com.cardsDto.cards.dto.CardsDto;
+import com.cardsDto.cards.dto.ErrorResponseDto;
+import com.cardsDto.cards.dto.ResponseDto;
+import com.cardsDto.cards.service.ICardsService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

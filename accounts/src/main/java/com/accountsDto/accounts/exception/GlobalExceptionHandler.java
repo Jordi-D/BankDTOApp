@@ -1,6 +1,6 @@
 package com.accountsDto.accounts.exception;
 
-import com.accounts.accounts.dto.ErrorResponseDto;
+import com.accountsDto.accounts.dto.ErrorResponseDto;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;

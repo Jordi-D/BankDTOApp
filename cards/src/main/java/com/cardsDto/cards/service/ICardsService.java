@@ -1,6 +1,6 @@
 package com.cardsDto.cards.service;
 
-import com.cards.cards.dto.CardsDto;
+import com.cardsDto.cards.dto.CardsDto;
 
 public interface ICardsService {
     /**

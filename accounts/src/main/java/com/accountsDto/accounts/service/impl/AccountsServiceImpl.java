@@ -1,17 +1,17 @@
 package com.accountsDto.accounts.service.impl;
 
-import com.accounts.accounts.constants.AccountsConstants;
-import com.accounts.accounts.dto.AccountsDto;
-import com.accounts.accounts.dto.CustomerDto;
-import com.accounts.accounts.entity.Accounts;
-import com.accounts.accounts.entity.Customer;
-import com.accounts.accounts.exception.CustomerAlreadyExistsException;
-import com.accounts.accounts.exception.ResourceNotFoundException;
-import com.accounts.accounts.mapper.AccountsMapper;
-import com.accounts.accounts.mapper.CustomerMapper;
-import com.accounts.accounts.repository.AccountsRepository;
-import com.accounts.accounts.repository.CustomerRepository;
-import com.accounts.accounts.service.IAccountsService;
+import com.accountsDto.accounts.constants.AccountsConstants;
+import com.accountsDto.accounts.dto.AccountsDto;
+import com.accountsDto.accounts.dto.CustomerDto;
+import com.accountsDto.accounts.entity.Accounts;
+import com.accountsDto.accounts.entity.Customer;
+import com.accountsDto.accounts.exception.CustomerAlreadyExistsException;
+import com.accountsDto.accounts.exception.ResourceNotFoundException;
+import com.accountsDto.accounts.mapper.AccountsMapper;
+import com.accountsDto.accounts.mapper.CustomerMapper;
+import com.accountsDto.accounts.repository.AccountsRepository;
+import com.accountsDto.accounts.repository.CustomerRepository;
+import com.accountsDto.accounts.service.IAccountsService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

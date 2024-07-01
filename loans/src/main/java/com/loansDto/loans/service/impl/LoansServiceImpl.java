@@ -1,13 +1,13 @@
 package com.loansDto.loans.service.impl;
 
-import com.loans.loans.constants.LoansConstants;
-import com.loans.loans.dto.LoansDto;
-import com.loans.loans.entity.Loans;
-import com.loans.loans.exception.LoanAlreadyExistException;
-import com.loans.loans.exception.ResourceNotFoundException;
-import com.loans.loans.mapper.LoansMapper;
-import com.loans.loans.repository.LoansRepository;
-import com.loans.loans.service.ILoansService;
+import com.loansDto.loans.constants.LoansConstants;
+import com.loansDto.loans.dto.LoansDto;
+import com.loansDto.loans.entity.Loans;
+import com.loansDto.loans.exception.LoanAlreadyExistException;
+import com.loansDto.loans.exception.ResourceNotFoundException;
+import com.loansDto.loans.mapper.LoansMapper;
+import com.loansDto.loans.repository.LoansRepository;
+import com.loansDto.loans.service.ILoansService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

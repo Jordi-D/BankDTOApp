@@ -1,11 +1,11 @@
 package com.accountsDto.accounts.controller;
 
-import com.accounts.accounts.constants.AccountsConstants;
-import com.accounts.accounts.dto.AccountsContactInfoDto;
-import com.accounts.accounts.dto.CustomerDto;
-import com.accounts.accounts.dto.ErrorResponseDto;
-import com.accounts.accounts.dto.ResponseDto;
-import com.accounts.accounts.service.IAccountsService;
+import com.accountsDto.accounts.constants.AccountsConstants;
+import com.accountsDto.accounts.dto.AccountsContactInfoDto;
+import com.accountsDto.accounts.dto.CustomerDto;
+import com.accountsDto.accounts.dto.ErrorResponseDto;
+import com.accountsDto.accounts.dto.ResponseDto;
+import com.accountsDto.accounts.service.IAccountsService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

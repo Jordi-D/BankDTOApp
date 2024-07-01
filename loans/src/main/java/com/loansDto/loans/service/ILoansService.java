@@ -1,6 +1,6 @@
 package com.loansDto.loans.service;
 
-import com.loans.loans.dto.LoansDto;
+import com.loansDto.loans.dto.LoansDto;
 
 public interface ILoansService {
 
