@@ -2,6 +2,7 @@ package com.cardsDto.cards.constants;
 
 public class CardsConstants {
 
+
     private CardsConstants() {
         // restrict instantiation
     }
@@ -15,4 +16,7 @@ public class CardsConstants {
     public static final String  STATUS_417 = "417";
     public static final String  MESSAGE_417_UPDATE= "Update operation failed. Please try again or contact Dev team";
     public static final String  MESSAGE_417_DELETE= "Delete operation failed. Please try again or contact Dev team";
+    public static final String STATUS_400 ="400";
+    public static final String MESSAGE_400_INVALID_MOBILE_NUMBER ="Invalidd...";
+
 }
