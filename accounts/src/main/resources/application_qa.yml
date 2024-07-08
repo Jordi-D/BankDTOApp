@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to QA prop."
+  contactDetails:
+    name: "jordi"
+    email: "odjod@hotma.com"

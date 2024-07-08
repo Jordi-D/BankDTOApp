@@ -1,0 +1,14 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+build:
+  version: 3.0
+
+loans:
+  message: "Welcome to Prod prop."
+  contactDetails:
+    name: "jordi"
+    email: "odjod@hotma.com"
+  onCallSupport:
+    - "Jordi DS"

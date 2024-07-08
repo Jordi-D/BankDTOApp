@@ -1,5 +1,6 @@
 server:
   port: 9000
+
 spring:
   datasource:
     url: jdbc:h2:mem:testdb
@@ -14,3 +15,18 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active: qa
+
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome"
+  contactDetails:
+    name: "jordi"
+    email: "odjod@hotma.com"
